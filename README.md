@@ -3,7 +3,7 @@
 Codes, representative pre-trained models, test data for FluoGen
 <div align="center">
 
-✨ [**Method**](#-Method-overview) **|** 🚩 [**Paper**](#-Paper) **|** 🔧 [**Install**](#Install)  **|** 🎨 [**Dataset**](#-Dataset)  **|** 💻 [**Training**](#-Training) **|** 🏰 [**Model Zoo**](#-Model-Zoo)  **|** ⚡ [**Inference**](#-Inference) **|** &#x1F308; [**Results**](#-Results)
+✨ [**Method**](#-Method-overview) **|** 🚩 [**Paper**](#-Paper) **|** 🔧 [**Install**](#Install)  **|** 🏰 [** Model Download**](#-Model-Download) **|** ⚡ [**Inference**](#-Inference) **|** 💻 [**Training**](#-Training) **|** 🎨 [**Dataset**](#-Dataset)  **|** &#x1F308; [**Results**](#-Results)
 
 </div>
 
@@ -67,7 +67,7 @@ Install the remaining dependencies.
 ### Troubleshooting
 **CUDA Version:** Although your system driver might be CUDA 11.4 (as in our environment), the installation command in Step 3 installs a local CUDA 11.8 toolkit strictly for PyTorch, which is compatible with the RTX 3090.
 
-## 🏰 Pretrained Model Download
+## 🏰 Model Download
 | Model  |Download                |
 |:--------- | :------------------------------------------- |
 | Foundation Model  |  [Zenodo repository]                                              |
