@@ -3,7 +3,7 @@
 Codes, representative pre-trained models, test data for FluoGen
 <div align="center">
 
-✨ [**Method**](#-Method-overview) **|** 🚩 [**Paper**](#-Paper) **|** 🔧 [**Install**](#Install)  **|** 🏰 [**Model Download**](#-Model-Download) **|** ⚡ [**Inference**](#-Inference) **|** 💻 [**Training**](#-Training) **|** 🎨 [**Dataset**](#-Dataset)  **|** &#x1F308; [**Results**](#-Results)
+✨ [**Method overview**](#-Method-overview) **|** 🚩 [**Paper**](#-Paper) **|** 🔧 [**Install**](#Install)  **|** 🏰 [**Model Download**](#-Model-Download) **|** ⚡ [**Inference**](#-Inference) **|** 💻 [**Training**](#-Training) **|** 🎨 [**Dataset**](#-Dataset)  **|** &#x1F308; [**Results**](#-Results)
 
 </div>
 
@@ -56,23 +56,21 @@ Install PyTorch with CUDA support.
    ```bash
     pip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu118
   ```
-**Note:** We use PyTorch 2.3.0. For RTX 3090, we recommend the CUDA 11.8 version for best compatibility.
+**💡 Note:** We use PyTorch 2.3.0. For RTX 3090, we recommend the CUDA 11.8 version for best compatibility.
 
 **Step 4.**
 Install the remaining dependencies.
    ```bash
     pip install -r requirements.txt
   ```
-
-### Troubleshooting
-**CUDA Version:** Although your system driver might be CUDA 11.4 (as in our environment), the installation command in Step 3 installs a local CUDA 11.8 toolkit strictly for PyTorch, which is compatible with the RTX 3090.
+**💡 Note:** Although your system driver might be CUDA 11.4 (as in our environment), the installation command in Step 3 installs a local CUDA 11.8 toolkit strictly for PyTorch, which is compatible with the RTX 3090.
 
 ## 🏰 Model Download
 | Model  |Download                |
 |:--------- | :------------------------------------------- |
-| Foundation Model  |  [Zenodo repository]                                              |
-| FMD     |    [Zenodo repository]  
-| BioSR    |    [Zenodo repository]  
+| Foundation Model  |  [Coming soon]                                              |
+| FMD     |    [Coming soon]  
+| BioSR    |    [Coming soon]  
 
 Download the pre-trained models and place them into `./model_output`.
 
@@ -173,7 +171,7 @@ To fine-tune the Control Branch on your own data, you need to prepare a .jsonl f
   * For Segmentation/Generation: The segmentation mask or label map.
 * `text`: The textual prompt describing the biological content (e.g., "Mitochondria of HeLa").
 
-  **Note:** We recommend using absolute paths to avoid FileNotFoundError. You can use our provided scripts in dataset/scripts/ to automatically generate these files from your folders.
+  **💡 Note:** We recommend using absolute paths to avoid FileNotFoundError. You can use our provided scripts in dataset/scripts/ to automatically generate these files from your folders.
 
 ## &#x1F308; Results
 
