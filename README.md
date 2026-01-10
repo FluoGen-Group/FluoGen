@@ -19,7 +19,7 @@ First, we curated a large-scale, heterogeneous dataset comprising 3.5 million hi
 Third, we designed a trainable conditional control branch to adapt the frozen FluoGen backbone for diverse downstream tasks, ranging from image enhancement (denoising, super-resolution) to high-level analysis (segmentation, classification). To ensure reliability in scientific imaging, we integrated a distribution-free conformalized quantile regression framework, enabling the model to output calibrated pixel-wise uncertainty maps that rigorously quantify potential hallucinations or errors. We demonstrate that FluoGen serves as both a superior backbone and a data-efficient sample generator, allowing state-of-the-art models to achieve high performance using as little as 30-50 training samples (or roughly 2% of standard datasets).
 
 ## 🚩 Paper
-This repository is for Bayesian DPA-TISR introduced in the following paper:
+This repository is for FluoGen introduced in the following paper:
 
 [Huaian Chen, Shiyao Hong, Yuxuan Gu, et al. "FluoGen: An Open-Source Generative Foundation Model for Fluorescence Microscopy Image Enhancement and Analysis" ***bioRxiv 2025.xx.xx.xxxxxx*** (2025)](网址) 
 
