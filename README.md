@@ -66,15 +66,10 @@ Install the remaining dependencies.
 **💡 Note:** Although your system driver might be CUDA 11.4 (as in our environment), the installation command in Step 3 installs a local CUDA 11.8 toolkit strictly for PyTorch, which is compatible with the RTX 3090.
 
 ## 🏰 Model Download
-| Model  |Download                |
-|:--------- | :------------------------------------------- |
-| Foundation Model  |  [Model Link](https://figshare.com/articles/software/Pre-trained_models_of_FluoGen/31042744?file=60943750)                                              |
-| FMD     |    [Model Link](https://figshare.com/articles/software/Pre-trained_models_of_FluoGen/31042744?file=60943750) 
-| BioSR    |    [Model Link](https://figshare.com/articles/software/Pre-trained_models_of_FluoGen/31042744?file=60943750)  
-| Segmentation    |    [Model Link](https://figshare.com/articles/software/Pre-trained_models_of_FluoGen/31042744?file=60943750)  
-
-Download the pre-trained models and place them into `./model_output`.
-
+We provide pre-trained weights for the Foundation Model and various Control Branch tasks on Figshare.
+**Download:** Click the link to download the compressed model package: FluoGen [Pre-trained Models](https://figshare.com/articles/software/Pre-trained_models_of_FluoGen/31042744?file=60943750).
+**Unzip:** Extract the downloaded ZIP file.
+**Organize:** Place the extracted model folders into the ./model_output directory.
 
 ## ⚡ Inference
 
