@@ -1,6 +1,6 @@
 # FluoGen: An Open-Source Generative Foundation Model for Fluorescence Microscopy Image Enhancement and Analysis
 
-Codes, representative pre-trained models, test data for FluoGen
+Codes, representative pre-trained models for FluoGen
 <div align="center">
 
 ✨ [**Method overview**](#-Method-overview) **|** 🚩 [**Paper**](#-Paper) **|** 🔧 [**Install**](#Install)  **|** 🏰 [**Model Download**](#-Model-Download) **|** ⚡ [**Inference**](#-Inference) **|** 💻 [**Training**](#-Training) **|** 🎨 [**Dataset**](#-Dataset)  **|** &#x1F308; [**Results**](#-Results)
