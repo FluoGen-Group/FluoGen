@@ -67,9 +67,12 @@ Install the remaining dependencies.
 
 ## 🏰 Model Download
 We provide pre-trained weights for the Foundation Model and various Control Branch tasks on Figshare.
-**Download:** Click the link to download the compressed model package: FluoGen [Pre-trained Models](https://figshare.com/articles/software/Pre-trained_models_of_FluoGen/31042744?file=60943750).
+
+**Download:** Click the link to download the compressed model package: [FluoGen Pre-trained Models](https://figshare.com/articles/software/Pre-trained_models_of_FluoGen/31042744?file=60943750).
+
 **Unzip:** Extract the downloaded ZIP file.
-**Organize:** Place the extracted model folders into the ./model_output directory.
+
+**Organize:** Place the extracted model folders into the `./model_output` directory.
 
 ## ⚡ Inference
 
