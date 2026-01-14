@@ -134,7 +134,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--unet_model_path",
                         type=str,
-                        default="Pretrained FluoGen model path"
+                        default="model_output/Foundation/Base"
     )
     parser.add_argument(
         "--CLIP_path",
@@ -159,14 +159,14 @@ if __name__ == "__main__":
     parser.add_argument(
         "--validation_prompt",
         type=str,
-        default="CCPs of COS-7",
+        default="F-actin of COS-7",
     )
-    parser.add_argument("--validation_path", type=str, nargs="+", default="BioSR/test/CCPs/testing/")
+    parser.add_argument("--validation_path", type=str, nargs="+", default="BioSR/test/F-actin/testing/")
     parser.add_argument("--controlnet_model_path",
                         type=str,
-                        default="FluoGen control branch model path",
+                        default="model_output/Control_Branch/SR/F-actin",
     )
-    parser.add_argument("--validation_output_dir", type=str, default="validation_output/BioSR/CCPs/")
+    parser.add_argument("--validation_output_dir", type=str, default="validation_output/BioSR/F-actin/")
     device = "cuda:3"
     parser.add_argument("--ddpm_num_steps", type=int, default=1000)
     parser.add_argument("--ddpm_num_inference_steps", type=int, default=10)

@@ -25,7 +25,7 @@ def parse_args():
     parser.add_argument(
         "--check_point",
         type=str,
-        default="Pretrained FluoGen model path",
+        default="model_output/Foundation/Full",
         help="Checkpoint to load the model from."
     )
     parser.add_argument(

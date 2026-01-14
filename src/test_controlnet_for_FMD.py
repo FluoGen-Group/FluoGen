@@ -131,11 +131,11 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--unet_model_path",
                         type=str,
-                        default="Pretrained FluoGen model path"
+                        default="model_output/Foundation/Base"
     )
     parser.add_argument("--controlnet_model_path",
                         type=str,
-                        default="FluoGen control branch model path"
+                        default="model_output/ontrol_Branch/Denoise"
     )
     parser.add_argument(
         "--CLIP_path",

@@ -112,7 +112,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--unet_model_path",
                         type=str,
-                        default="Pretrained FluoGen model path"
+                        default="model_output/Foundation/Base"
     )
     parser.add_argument(
         "--CLIP_path",
@@ -136,7 +136,7 @@ if __name__ == "__main__":
     parser.add_argument("--train_data_path", type=str, default="dsb/masks/")
     parser.add_argument("--controlnet_model_path",
                         type=str,
-                        default="FluoGen control branch model path"
+                        default="model_output/ontrol_Branch/Denoise"
     )
     parser.add_argument('--validation_output_dir', type=str, default="validation_output/dsb/")
     parser.add_argument("--ddpm_num_steps", type=int, default=1000)
