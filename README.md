@@ -21,7 +21,7 @@ Third, we designed a trainable conditional control branch to adapt the frozen Fl
 ## 🚩 Paper
 This repository is for FluoGen introduced in the following paper:
 
-[Huaian Chen, Shiyao Hong, Yuxuan Gu, et al. "FluoGen: An Open-Source Generative Foundation Model for Fluorescence Microscopy Image Enhancement and Analysis" ***bioRxiv 2025.xx.xx.xxxxxx*** (2025)](网址) 
+[Huaian Chen, Shiyao Hong, Yuxuan Gu, et al. "FluoGen: An Open-Source Generative Foundation Model for Fluorescence Microscopy Image Enhancement and Analysis" ***Research Square, 14 January*** (2026)]([网址](https://www.researchsquare.com/article/rs-8334792/v1)) 
 
 ## 🔧 Install
 ### Our environment
